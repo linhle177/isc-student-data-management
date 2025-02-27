@@ -1,0 +1,16 @@
+cac_lan_a_mang_e = '''Cau noi\t                              Thoi gian\t                                   Muc do ton thuong"
+Em k hon nhien nhu hoi moi yeu nua\t17/2\t                                      Nghiem trong
+Do dang ghet\t                        19/2\t                                    Sieu nghiem trong'''
+print(cac_lan_a_mang_e)
+
+
+ps = "e yeu a"
+title = "MENU".upper()
+print(title.center(34, "-"))
+print("e nho a".ljust(30, ".") + "$4".rjust(4))
+print("e yeu a rat nhieu".ljust(30, ".") + "$7".rjust(4))
+print("e yeu a nhat tren doi".ljust(30, ".") + "$15".rjust(4))
+print(ps[0])
+print(ps[-1])
+print(ps[0:5])
+print(ps[3:])
